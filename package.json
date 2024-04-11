@@ -6,6 +6,6 @@
   "dependencies": {
     "discord.js": "11.4",
     "dotenv": "^8.2.0",
-    "phin": "^3.5.0"
+    "phin": "^3.7.1"
   }
 }

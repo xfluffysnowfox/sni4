@@ -7,10 +7,12 @@ async-limiter@~1.0.0:
   resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
-centra@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/centra/-/centra-2.4.2.tgz#3bad51dbca2250dbecad84598dc7184973f4c4a9"
-  integrity sha512-f1RaP0V1HqVNEXfLfjNBthB2yy3KnSGnPCnOPCFLUk9e/Z4rNJ8nBaJNnghflnp88mi1IT8mfmW+HlMS1/H+bg==
+centra@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/centra/-/centra-2.7.0.tgz#4c8312a58436e8a718302011561db7e6a2b0ec18"
+  integrity sha512-PbFMgMSrmgx6uxCdm57RUos9Tc3fclMvhLSATYN39XsDV29B89zZ3KA89jmY0vwSGazyU+uerqwa6t+KaodPcg==
+  dependencies:
+    follow-redirects "^1.15.6"
 
 discord.js@11.4:
   version "11.4.2"
@@ -28,17 +30,22 @@ dotenv@^8.2.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
+follow-redirects@^1.15.6:
+  version "1.15.6"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.6.tgz#7f815c0cda4249c74ff09e95ef97c23b5fd0399b"
+  integrity sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==
+
 long@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
   integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
 
-phin@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/phin/-/phin-3.5.0.tgz#f223aa26b22bb682b3eaf150ccb66c06998037b0"
-  integrity sha512-BEJYqD07B5uBFPAzNpLuLh0LzHr4MDLe0Vc6gBYi+PSIL57VbiE/UvkCc86x24pKQn2X2Keg7HTJEDr8BrBCCg==
+phin@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/phin/-/phin-3.7.1.tgz#bf841da75ee91286691b10e41522a662aa628fd6"
+  integrity sha512-GEazpTWwTZaEQ9RhL7Nyz0WwqilbqgLahDM3D0hxWwmVDI52nXEybHqiN6/elwpkJBhcuj+WbBu+QfT0uhPGfQ==
   dependencies:
-    centra "^2.4.2"
+    centra "^2.7.0"
 
 prism-media@^0.0.3:
   version "0.0.3"
