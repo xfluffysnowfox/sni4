@@ -1,70 +1,75 @@
-# Nitro Sniper Enhanced [![CodeFactor](https://www.codefactor.io/repository/github/giorgiobrux/nitro-sniper-enhanced/badge)](https://www.codefactor.io/repository/github/giorgiobrux/nitro-sniper-enhanced) ![GitHub issues](https://img.shields.io/github/issues/giorgiobrux/nitro-sniper-enhanced) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-<img alt="img" align="right" src="https://user-images.githubusercontent.com/18328525/92536909-19ea5000-f23b-11ea-8fb7-524b4ba22f26.png">
-Snipes nitro gift codes; with alt-support.<br>
-A fork of the (previously-MIT licensed) sniper by slow.
-  
-# Features
-<img alt="img" align="right" src="https://user-images.githubusercontent.com/18328525/93030855-88a61f80-f626-11ea-882f-3136ca00d26e.png">
+# 🎮 Nitro Sniper Enhanced
 
-- Beautiful colors to see quickly what you need to see.
-- Multi-token support with all codes redeemed on your main.
-- Notifications from the mobile discord app work if you don't use your main account for sniping too.
-- Removes non-alphanumeric chars automatically from codes and tries to redeem.
-- Supports `code&,junk` -> `code` obfuscation.
-- Auto-detects fake codes by length or probability check.
-- It remembers all codes it tries and won't check them again. (cached on disk).
-- Optional webhook support; Avatar and username set by default.
-- Will snipe privnotes searching for codes and saving the content to a file.
-# Disclaimer
-The use of selfbots is against the [discord TOS](https://discord.com/terms) and [guidelines](https://discord.com/guidelines).  
-Before proceeding, make sure you understand the implications and can accept the consequences.
+<div align="center">
 
-# Installation methods
-#### Heroku (recommended)
-The good guys at heroku have apparently blacklisted this repo.<br>
-In order to deploy an heroku instance:
-- Fork the repo.
-- Go to https://dashboard.heroku.com/new?template=https://github.com/YOURUSERNAME/nitro-sniper-enhanced making sure to change `YOURUSERNAME` in the url to your actual github username.
-- To update your fork, you can use the `Fetch upstream` button on github.
+[![CodeFactor](https://www.codefactor.io/repository/github/giorgiobrux/nitro-sniper-enhanced/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/giorgiobrux/nitro-sniper-enhanced)
+[![GitHub Issues](https://img.shields.io/github/issues/giorgiobrux/nitro-sniper-enhanced?style=for-the-badge)](https://github.com/giorgiobrux/nitro-sniper-enhanced/issues)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](http://perso.crans.org/besson/LICENSE.html)
+[![Discord](https://img.shields.io/badge/Discord-Support-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yourserver)
 
-> ℹ️ While directly using someone else's fork is possible, it is heavily discouraged for novice users because malicious code can be added and if one becomes very popular it will also be blacklisted by heroku.
+Advanced Discord Nitro sniper with multi-account support and enhanced features
 
-After deployment, make sure you go to your app -> Configure dynos/Resources and turn off `web` and start `worker`.<br>
-You can then see logs by clicking on `More` (top right) and then `View logs`.<br>
-To update see [here](https://github.com/GiorgioBrux/nitro-sniper-enhanced/issues/7#issuecomment-692116471) or just remove your app and recreate it.
-#### Repl.it
-Go to your dashboard, click on the plus button, import from github and type `giorgiobrux/nitro-sniper-enhanced`. <br>
-On replit instead of editing the .env file, click on `secrets` in the left bar, and manually add everything you need, making sure to also add `replit` and set it to `true`. <br>
-No one else will be able to see the .env file even with public repos, so your tokens are safe. <br>
-> ⚠️The old `dotenv` (not .env) file can be seen by anyone who knows your username and your replit repo name. Make sure to update to the secrets system ASAP. <br>
+<img src="https://user-images.githubusercontent.com/18328525/92536909-19ea5000-f23b-11ea-8fb7-524b4ba22f26.png">
+</div>
 
-**IMPORTANT**: You need to use a service that periodically pings your repl.it app like [UptimeRobot](https://uptimerobot.com/), or else it will go in sleep mode. <br>
-To update, run `git pull` from the shell.
-#### Local
-- Make sure [Node](https://nodejs.org/en/) 14+ is installed on your system and open a command prompt/terminal.
-- Run `git clone https://github.com/giorgiobrux/nitro-sniper-enhanced nitro-sniper`
-- Run `cd nitro-sniper`
-- Run `npm install`
-- Edit the .env file.
-- Run `node .` <br>
-To update, run `git pull`  
-#### Docker
-[Available on DockerHub](https://hub.docker.com/r/giorgiobrux/nitro-sniper) <br>
-To update, use [watchtower](https://github.com/containrrr/watchtower) or similar. 
+## ✨ Features
 
-# Contributing
-Pull requests are welcome.  
-If you contribute, all your code will be licensed under GPL-3.0-or-later.  
+<img align="right" src="https://user-images.githubusercontent.com/18328525/93030855-88a61f80-f626-11ea-882f-3136ca00d26e.png">
 
-# Tips
-- Try to get a low latency to discord servers as there can be competition with other snipers.
-- This is technically a self-bot: mentioning this in a discord chat is enough to make your account reportable to Trust & Safety.
-- Running more than one instance or different snipers is an easy way to get your account deactivated.
-- If you get a lot of nitro in a short amount of time, turn the sniper off for a while.
-- Before using, consider the moral implications of stealing gifts from communities you have nothing to do with.
+- 🎨 Beautiful color-coded console output
+- 👥 Multi-token support with main account redemption
+- 📱 Mobile notifications support
+- 🧹 Automatic non-alphanumeric character cleanup
+- 🛡️ Anti-obfuscation support (`code&,junk` → `code`)
+- 🔍 Fake code detection via length/probability
+- 💾 Persistent code cache
+- 🪝 Discord webhook integration
+- 📝 PrivNote code scanning and archiving
 
-# License
-[GPL-3.0-or-later](https://www.gnu.org/licenses/)  
-Modified work Copyright (C) 2020-2021 All nitro-sniper-enhanced contributors  
-Original work Copyright (C) 2020 slow | Sublicensed according to the MIT license available [here](https://opensource.org/licenses/MIT) or in the [LICENSE.md](https://github.com/GiorgioBrux/nitro-sniper-enhanced/blob/master/LICENSE.md) file.
+## ⚠️ Disclaimer
 
+> **Warning**
+> Using selfbots violates Discord's [Terms of Service](https://discord.com/terms) and [Guidelines](https://discord.com/guidelines). Use at your own risk.
+
+## 🚀 Installation Methods
+
+### Local Installation
+```bash
+# Clone repository
+git clone https://github.com/giorgiobrux/nitro-sniper-enhanced nitro-sniper
+
+# Install dependencies
+cd nitro-sniper
+npm install
+
+# Configure and run
+# 1. Edit .env file
+# 2. Start application
+node .
+```
+
+### Docker (Recommended)
+Available on [DockerHub](https://hub.docker.com/r/giorgiobrux/nitro-sniper)
+
+## 💡 Pro Tips
+
+- 🌐 Low latency is crucial for competitive sniping
+- 🤫 Avoid mentioning selfbot usage in Discord
+- ⚠️ Running multiple instances risks account deactivation
+- 🔄 Take breaks after frequent successes
+- 🤔 Consider ethical implications before use
+
+## 🤝 Contributing
+
+Contributions are welcome! By contributing, you agree to license your code under GPL-3.0-or-later.
+
+## 📝 License
+
+[GPL-3.0-or-later](https://www.gnu.org/licenses/)
+
+- **Modified Work**: Copyright (C) 2020-2021 All nitro-sniper-enhanced contributors
+- **Original Work**: Copyright (C) 2020 slow | MIT License ([details](https://github.com/GiorgioBrux/nitro-sniper-enhanced/blob/master/LICENSE.md))
+
+---
+
+<p align="center">Made with 💜 by the Nitro Sniper Enhanced Contributors</p>
