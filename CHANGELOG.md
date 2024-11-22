@@ -1,3 +1,10 @@
+## [1.11.6](https://github.com/giorgiobrux/nitro-sniper-enhanced/compare/v1.11.5...v1.11.6) (2024-11-22)
+
+
+### Bug Fixes
+
+* **readme:** remove dead link ([5948ac3](https://github.com/giorgiobrux/nitro-sniper-enhanced/commit/5948ac314e4e0b6ba8175b05edc6b49a9f9814d4))
+
 ## [1.11.5](https://github.com/giorgiobrux/nitro-sniper-enhanced/compare/v1.11.4...v1.11.5) (2021-08-30)
 
 
