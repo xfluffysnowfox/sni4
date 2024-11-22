@@ -5,7 +5,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/giorgiobrux/nitro-sniper-enhanced/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/giorgiobrux/nitro-sniper-enhanced)
 [![GitHub Issues](https://img.shields.io/github/issues/giorgiobrux/nitro-sniper-enhanced?style=for-the-badge)](https://github.com/giorgiobrux/nitro-sniper-enhanced/issues)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](http://perso.crans.org/besson/LICENSE.html)
-[![Discord](https://img.shields.io/badge/Discord-Support-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yourserver)
 
 Advanced Discord Nitro sniper with multi-account support and enhanced features
 
